@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "home-work"
+version = "0.1.0"
+description = ""
+authors = ["Evgenius87 <plotnikov.evgenij@ukr.net>"]
+readme = "README.md"
+packages = [{include = "home_work"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+alembic = "^1.11.0"
+sqlalchemy = "^2.0.13"
+faker = "^18.9.0"
+psycopg2 = "^2.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
